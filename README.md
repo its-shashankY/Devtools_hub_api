@@ -29,3 +29,4 @@ A FastAPI-based REST API for comparing developer tools, tracking pricing, and fi
    ```bash
    git clone [https://github.com/yourusername/devtools-hub-api.git](https://github.com/yourusername/devtools-hub-api.git)
    cd devtools-hub-api# Devtools_hub_api
+# Devtools_hub_api
