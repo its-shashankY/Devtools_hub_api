@@ -21,7 +21,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 1440  # 24 hours
     
     # Database
-    DATABASE_URL: str = os.getenv("DATABASE_URL", "postgresql://postgres:12345@localhost/devtools_hub")
+    DATABASE_URL: str = os.getenv("DATABASE_URL", "postgresql://devtools_hub_user:yP5kU38F7m0fcQwV5g0HKd7CD0bF8KQu@dpg-d4vd0ppr0fns739j0qog-a/devtools_hub")
     
     # CORS - Using Any type and more flexible parsing
     BACKEND_CORS_ORIGINS: Any = ["*"]
